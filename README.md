@@ -35,7 +35,7 @@ This project demonstrates a compliance assessment workflow using Wazuh SIEM to e
 - **Authentication & Access Control**: 42 failed checks (SSH hardening, password policies, cron permissions)
 - **Logging & Auditing**: 25 failed checks (audit rules, log partitioning, warning banners)
 
-### Sample Findings View
+### Filtered for Failed
 ![Compliance Findings](screenshots/compliance-findings.png)
 
 ## Work Performed
@@ -120,20 +120,7 @@ Generated a professional compliance report documenting:
 | 35641 | Ensure audit logs are not automatically deleted | Failed |
 | 35649 | Ensure audit configuration is immutable | Failed |
 
-## Repository Contents
 
-```
-├── README.md
-├── reports/
-│   └── CIS_Compliance_Report.docx
-├── policies/
-│   └── nist_800-53_custom.yml
-├── data/
-│   └── CIS-Ubuntu_Benchmark.csv
-└── screenshots/
-    ├── sca-dashboard.png
-    ├── nist-800-53-dashboard.png
-    └── compliance-findings.png
 ```
 
 ## Tools Used
