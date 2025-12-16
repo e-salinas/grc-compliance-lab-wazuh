@@ -97,6 +97,8 @@ Generated a professional compliance report documenting:
 - Framework mapping for each finding
 - Prioritized remediation recommendations
 
+📄 **[View Full Compliance Report](reports/CIS_Compliance_Report.docx)**
+
 ## Sample Findings
 
 ### High Priority - Network Security
