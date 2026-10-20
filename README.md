@@ -101,27 +101,18 @@ Generated a professional compliance report documenting:
 
 ## Sample Findings
 
-### High Priority - Network Security
-| ID | Finding | Status |
-|----|---------|--------|
-| 35619 | Ensure a single firewall configuration utility is in use | Failed |
-| 35624 | Ensure ufw default deny firewall policy | Failed |
-| 35604 | Ensure dccp kernel module is not available | Failed |
+The following failed checks were verified against the exported assessment data in `data/CIS-Ubuntu Benchmark.csv`. This is a selection of findings, not the complete list of 115 failed checks.
 
-### High Priority - Authentication
-| ID | Finding | Status |
-|----|---------|--------|
-| 35665 | Ensure sshd PermitRootLogin is disabled | Failed |
-| 35671 | Ensure sshd MaxAuthTries is configured | Failed |
-| 35677 | Ensure sshd ClientAliveInterval and ClientAliveCountMax are configured | Failed |
+| Wazuh Check ID | Check Title | Recorded Result |
+|----------------|-------------|-----------------|
+| 35619 | Ensure a single firewall configuration utility is in use. | Failed |
+| 35624 | Ensure ufw default deny firewall policy. | Failed |
+| 35604 | Ensure dccp kernel module is not available. | Failed |
+| 35671 | Ensure libpam-pwquality is installed. | Failed |
+| 35677 | Ensure password unlock time is configured. | Failed |
+| 35528 | Ensure separate partition exists for /var/log. | Failed |
 
-### Medium Priority - Logging
-| ID | Finding | Status |
-|----|---------|--------|
-| 35528 | Ensure separate partition exists for /var/log | Failed |
-| 35641 | Ensure audit logs are not automatically deleted | Failed |
-| 35649 | Ensure audit configuration is immutable | Failed |
-
+These are automated assessment results. Each finding requires review of the system configuration, applicability, and operational context before selecting a remediation.
 
 ```
 
