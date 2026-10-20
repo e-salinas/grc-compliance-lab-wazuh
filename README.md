@@ -8,6 +8,8 @@ I reviewed automated check results, exported the assessment data, examined selec
 
 This lab focuses on assessment and documentation. It does not demonstrate completed remediation, a follow-up scan, or organization-wide compliance.
 
+***Revised***: October 20, 2026
+
 ## Environment
 
 | Component | Details |
