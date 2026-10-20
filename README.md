@@ -2,7 +2,11 @@
 
 ## Overview
 
-This project demonstrates a compliance assessment workflow using Wazuh SIEM to evaluate Linux endpoint security against CIS benchmarks and NIST 800-53 controls. The lab includes running Security Configuration Assessment (SCA) scans, analyzing findings by control category, mapping results to compliance frameworks, and producing a professional compliance report.
+I used Wazuh Security Configuration Assessment (SCA) to assess an Ubuntu Linux endpoint against the CIS Ubuntu Linux 24.04 LTS Benchmark v1.0.0.
+
+I reviewed automated check results, exported the assessment data, examined selected findings and framework references, and prepared an assessment report. The repository includes the CSV export and dashboard screenshots supporting the assessment.
+
+This lab focuses on assessment and documentation. It does not demonstrate completed remediation, a follow-up scan, or organization-wide compliance.
 
 ## Environment
 
@@ -102,14 +106,15 @@ For a defensible finding, I need to keep the following information connected:
 
 This project documents automated assessment results and a review of their associated references. It does not include independent validation of every mapped control.
 
-### 6. Produced Compliance Report
-Generated a professional compliance report documenting:
-- Executive summary with assessment scope
-- Findings organized by control category
-- Framework mapping for each finding
-- Prioritized remediation recommendations
+### 6. Prepared an Assessment Report
 
-📄 **[View Full Compliance Report](reports/CIS_Compliance_Report.pdf)**
+I prepared a report summarizing the assessment scope, automated results, selected findings, and suggested follow-up actions.
+
+During a portfolio review, I identified mismatches between several reported check IDs, titles, and results and the source CSV. I corrected the README findings against the CSV; the original PDF requires the same correction.
+
+**Report status:** The linked PDF is the original version and contains known finding-reference errors. Use the CSV as the source for recorded check results until the corrected report is published.
+
+[Original assessment report — pending correction](reports/CIS_Compliance_Report.pdf)
 
 ## Sample Findings
 
