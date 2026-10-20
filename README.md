@@ -87,16 +87,20 @@ Exported all 279 checks to CSV and filtered findings into categories:
 - Authentication controls (SSH, password, cron, sudo)
 - Logging controls (auditd, journald, syslog, partitions)
 
-### 5. Mapped Findings to Compliance Frameworks
-Reviewed compliance tags on each finding to document framework coverage:
+### 5. Reviewed Framework References
 
-| Framework | Relevant Controls |
-|-----------|-------------------|
-| NIST 800-53 | AC-5, AC-6, AU-7, CM-6, SI-7 |
-| PCI DSS v4.0 | 1.2.5, 2.2.4, 5.3.4, 6.4.1, 7.1, 10.2.1 |
-| HIPAA | 164.308(a)(3), 164.312(a)(1), 164.312(b) |
-| SOC 2 | CC5.2, CC6.1, CC6.3, CC6.6, A1.1 |
-| CMMC v2.0 | AC.L1-3.1.1, CM.L2-3.4.7, AU.L2-3.3.1 |
+I reviewed the framework references supplied in the exported Wazuh assessment data. The CSV's `Compliance` field preserves the mappings associated with individual checks.
+
+These mappings identify potentially relevant requirements for further review. They do not establish that an entire control was assessed or that the system complies with NIST SP 800-53, PCI DSS, HIPAA, SOC 2, or CMMC.
+
+For a defensible finding, I need to keep the following information connected:
+- Wazuh check ID and title
+- Recorded assessment result
+- Associated framework reference, where present
+- Supporting system evidence
+- Applicability and any limitations
+
+This project documents automated assessment results and a review of their associated references. It does not include independent validation of every mapped control.
 
 ### 6. Produced Compliance Report
 Generated a professional compliance report documenting:
