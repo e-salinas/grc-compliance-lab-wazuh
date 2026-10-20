@@ -134,8 +134,6 @@ The following failed checks were verified against the exported assessment data i
 
 These are automated assessment results. Each finding requires review of the system configuration, applicability, and operational context before selecting a remediation.
 
-```
-
 ## Tools Used
 
 - **Wazuh SIEM** - Open source security monitoring platform
