@@ -108,13 +108,16 @@ This project documents automated assessment results and a review of their associ
 
 ### 6. Prepared an Assessment Report
 
-I prepared a report summarizing the assessment scope, automated results, selected findings, and suggested follow-up actions.
+The revised report summarizes the original assessment scope, verified result totals, selected failed checks, and proposed validation steps.
 
-During a portfolio review, I identified mismatches between several reported check IDs, titles, and results and the source CSV. I corrected the README findings against the CSV; the original PDF requires the same correction.
+Finding IDs, titles, and results were checked against the exported CSV. Selected framework references were taken from the same source records.
 
-**Report status:** The linked PDF is the original version and contains known finding-reference errors. Use the CSV as the source for recorded check results until the corrected report is published.
+The report distinguishes completed assessment work from proposed manual validation, risk assessment, remediation, and verification.
 
-[Original assessment report — pending correction](reports/CIS_Compliance_Report.pdf)
+**Assessment date:** December 15, 2025  
+**Report revision:** October 20, 2026
+
+[View the assessment report](reports/CIS_Compliance_Report.pdf)
 
 ## Sample Findings
 
