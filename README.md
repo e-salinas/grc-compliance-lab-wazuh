@@ -21,7 +21,11 @@ This project demonstrates a compliance assessment workflow using Wazuh SIEM to e
 | Passed | 122 |
 | Failed | 115 |
 | Not Applicable | 42 |
-| Compliance Score | 51% |
+| Wazuh SCA Benchmark Score | 51% |
+
+The score is the value displayed by Wazuh for this benchmark assessment. It summarizes automated configuration-check results; it is not an organization-wide compliance rating or proof that all requirements of a mapped framework are satisfied.
+
+The totals were verified against the exported CSV: 122 passed, 115 failed, and 42 not applicable, for 279 checks.
 
 ### SCA Dashboard
 ![SCA Dashboard](screenshots/sca-dashboard.png)
@@ -29,11 +33,15 @@ This project demonstrates a compliance assessment workflow using Wazuh SIEM to e
 ### NIST 800-53 Compliance Dashboard
 ![NIST 800-53 Dashboard](screenshots/nist-800-53-dashboard.png)
 
-### Findings by Category
+### Selected Review Areas
 
-- **Network Security**: 20 failed checks (firewall policies, kernel modules, network protocols)
-- **Authentication & Access Control**: 42 failed checks (SSH hardening, password policies, cron permissions)
-- **Logging & Auditing**: 25 failed checks (audit rules, log partitioning, warning banners)
+I reviewed findings related to:
+
+- **Network configuration:** Firewall configuration and unnecessary network-protocol modules.
+- **Authentication and access:** Password-policy components and account settings.
+- **Logging infrastructure:** Filesystem layout for log storage.
+
+These are selected review areas, not an exhaustive classification of all failed checks. The CSV preserves the complete assessment results.
 
 ### Filtered for Failed
 ![Compliance Findings](screenshots/compliance-findings.png)
